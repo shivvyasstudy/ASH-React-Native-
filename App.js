@@ -27,14 +27,13 @@ export default function App() {
             <Stack.Navigator 
             // initialRouteName='Chat'
             // initialRouteName= "Home"
-            initialRouteName='demo'
              screenOptions = {globalScreenOptions}>
             <Stack.Screen name = "Login" component = {LoginScreen}/>
             <Stack.Screen name = "Register" component = {RegisterScreen}/>
             <Stack.Screen name = "Home" component = {HomeScreen}/> 
             <Stack.Screen name = "AddChat" component = {AddChatScreen}/> 
             <Stack.Screen name = "Chat" component = {ChatScreen}/> 
-            {/* <Stack.Screen name = 'demo' component ={demo}/> */}
+
 
 
 
